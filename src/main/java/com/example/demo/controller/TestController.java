@@ -10,6 +10,8 @@ public class TestController {
 
     @GetMapping("/get")
     public  String get(){
+
+
         return new Date().toString();
     }
 }
